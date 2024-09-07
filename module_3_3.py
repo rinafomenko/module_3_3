@@ -1,4 +1,4 @@
-def print_params(a, b, c):
+def print_params(a = 1, b = 'Строка', c = True):
     print(a,b,c)
 
 print_params(a = 1, b = 'Строка', c = True)
